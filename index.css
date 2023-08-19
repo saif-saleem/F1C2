@@ -1,0 +1,210 @@
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap'); */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+scroll-behavior:smooth ;
+
+}
+body{
+    background-color: #eeedef;
+}
+#main_nav{
+    height: 50px;
+    background-color: gray;
+    color: white;
+    position: sticky;
+    top: 0;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    padding-top: 15px;
+}
+
+a:hover{
+    color: rgb(173, 188, 210);
+}
+
+
+#lib{
+    margin-left: 67px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#books{
+    margin-left: 74%;
+    font-family: 'Poppins', sans-serif;
+}
+#register{
+    margin-left: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+#bookstable{
+width: 60%;
+background-color:white;
+display: flex;
+margin-left: 20%;
+
+margin-top: 40px;
+margin-bottom: 20px;
+
+/* justify-content: center; */
+}
+
+#registerform{
+width:60%;
+background-color: white;
+display: flex;
+margin-left: 20%;
+margin-bottom: 40px;
+}
+.maincont{
+    display: flex;
+    flex-direction: column;
+}
+
+table{
+    width: 95%;
+    margin-left: 10px;
+}
+
+td{
+    padding: 5px;
+}
+th{
+    /* font-family: 'Assistant', sans-serif; */
+font-family: 'EB Garamond', serif;
+/* font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif; */
+}
+#bs{
+    width: 100%;
+}
+
+#rf{
+    width:100%;
+}
+
+#fname{
+    margin-left: 10px;
+    width: 95%;
+    /* font-family: 'Assistant', sans-serif; */
+font-family: 'EB Garamond', serif;
+/* font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif; */
+}
+#lname{
+    margin-left: 10px;
+    width: 95%;
+    /* font-family: 'Assistant', sans-serif; */
+font-family: 'EB Garamond', serif;
+/* font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif; */
+}
+#DOB{
+    margin-left: 10px;
+    width: 95%;
+    /* font-family: 'Assistant', sans-serif; */
+font-family: 'EB Garamond', serif;
+/* font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif; */
+}
+#AGE{
+    margin-left: 10px;
+    width: 95%;
+    /* font-family: 'Assistant', sans-serif; */
+font-family: 'EB Garamond', serif;
+/* font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif; */
+}
+#EMAIL{
+    margin-left: 10px;
+    width: 95%;
+    /* font-family: 'Assistant', sans-serif; */
+font-family: 'EB Garamond', serif;
+/* font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif; */
+}
+#PASS{
+    margin-left: 10px;
+    width: 95%;
+    /* font-family: 'Assistant', sans-serif; */
+font-family: 'EB Garamond', serif;
+/* font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif; */
+}
+#CNFPASS{
+    margin-left: 10px;
+    width: 95%;
+    /* font-family: 'Assistant', sans-serif; */
+font-family: 'EB Garamond', serif;
+/* font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif; */
+}
+
+h3{
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* font-family: 'Poppins', sans-serif; */
+font-family: 'PT Serif', serif;
+}
+h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+   
+font-family: 'PT Serif', serif;
+}
+label{
+    margin-left: 10px;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  #regbtn{
+    margin-left: 10px;
+    width: 95%;
+    margin-bottom: 20px;
+    background-color: black;
+    height: 40px;
+    color: white;
+    border: none;
+  }
+
+  #lasttb{
+    margin-bottom: 40px;
+  }
+
+  input{
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .tit{
+    color: white;
+    text-decoration: none;
+    /* scroll-behavior: smooth; */
+  }
+  .booktit{
+    text-decoration: none;
+    color: black;
+    /* scroll-behavior: smooth; */
+  }
+
+  label{
+    
+    font-family: 'EB Garamond', serif;
+   
+  }
+  
+
+ 

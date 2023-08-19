@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+      </style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Poppins:ital,wght@1,200&display=swap');
+  </style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=EB+Garamond:ital,wght@1,600&family=PT+Serif:ital@1&family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=EB+Garamond:ital,wght@1,600&family=PT+Serif:ital@1&family=Poppins:ital,wght@1,200&display=swap');
+  </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    
+</head>
+<body>
+    
+    <nav id="main_nav">
+        <ul>
+            <li id="lib"><a href="" class="tit">Library System</a></li>
+            <li id="books"><a href="#bookstable" class="tit">Books</a></li>
+            <li id="register"><a href="#registerform" class="tit">Register</a></li>
+        </ul>
+    </nav>
+    <div class="maincont">
+    <div id="bookstable">
+        <div id="bs"><h3>Books</h3>
+        <table>
+            <tr>
+         <th>Book ID</th>
+         <th>Title</th>
+         <th>Author</th>
+         <th>Genre</th>
+         <th>Availability</th>
+        </tr>
+         <tr>
+            <td rowspan="4">1</td>
+            <td>
+                <table border="1px">
+                    <h4><a class="booktit" href="">Book Title 1</a></h4>
+                    <tr>
+                        <td>Publication Date:scs</td>
+                    </tr>
+                    <tr>
+                        <td>Page count</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Author Name 1</td>
+            <td>Genre 1s</td>
+            <td>Available</td>
+         </tr>
+        </table>
+        <table>
+            <tr>
+         <th>Book ID</th>
+         <th>Title</th>
+         <th>Author</th>
+         <th>Genre</th>
+         <th>Availability</th>
+        </tr>
+        <br>
+         <tr>
+            <td rowspan="4">2</td>
+            <td>
+                <table border="1px">
+                    <h4><a class="booktit" href="">Book Title 2</a></h4>
+                    <tr>
+                        <td>Publication Date:scs</td>
+                    </tr>
+                    <tr>
+                        <td>Page count</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN</td>
+                    </tr>
+                       
+                </table>
+            </td>
+            <td>Author Name 2</td>
+            <td>Genre 2s</td>
+            <td>Available</td>
+         </tr>
+        </table>
+        <table id="lasttb">
+            <!-- <br> -->
+            <tr>
+         <th>Book ID</th>
+         <th>Title</th>
+         <th>Author</th>
+         <th>Genre</th>
+         <th>Availability</th>
+        </tr>
+         <tr>
+            <td rowspan="4">3</td>
+            <td>
+                <table border="1px">
+                    <h4><a class="booktit" href="">Book Title 3</a></h4>
+                    <tr>
+                        <td>Publication Date:scs</td>
+                    </tr>
+                    <tr>
+                        <td>Page count</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN</td>
+                    </tr>
+                       
+                </table>
+            </td>
+            <td>Author Name 3</td>
+            <td>Genre 3s</td>
+            <td>Available</td>
+         </tr>
+    
+         <br>
+        </table>
+    </div>
+    </div>
+    <div id="registerform">
+        <div id="rf"><h3>Register</h3>
+        <form id="regform" method="get" >
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" required placeholder="Saif"><br>
+
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" required placeholder="Saleem"><br>
+
+            <label for="DOB">Date of Birth:</label><br>
+            <input type="date" id="DOB" name="birth" required placeholder="28-03-2000"><br>
+
+            <label for="AGE">Age:</label><br> 
+            <input type="number" id="AGE" name="age" min="5" max="100" required placeholder="23"><br>
+            
+            <label for="EMAIL">Email:</label><br> 
+            <input type="email" id="EMAIL" name="email" required placeholder="saifa398@gmail.com"><br>
+
+            <label for="PASS">Password:</label><br>
+            <input type="password" id="PASS" name="password" required ><br>
+
+            <label for="CNFPASS">Confirm Password:</label><br>
+            <input type="password" id="CNFPASS" name="cnfpassword" required><br>
+            <br>
+            <!-- <a id="regbutton" href="#main_nav"> -->
+            <!-- <input id="regbtn" type="submit" Register> </a>-->
+            <button type="submit" id="regbtn">Register</button>
+   
+        </form>
+    </div>
+    </div>
+</div>
+</body>
+</html>
